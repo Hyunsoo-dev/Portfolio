@@ -1,0 +1,34 @@
+.toDo {
+  margin: 20px 0px;
+}
+.toDo__list {
+  text-align: center;
+  width: 30%;
+  height: 30px;
+  outline: none;
+  padding: 0px;
+  transition: transform 1s ease-in-out, width 1s ease-in-out,
+    height 1s ease-in-out, border-radius 1s ease-in-out;
+}
+.toDo__list:focus {
+  border: none;
+  transform: translateY(30px);
+  width: 50%;
+  height: 50px;
+  border-radius: 30px;
+  outline: none;
+}
+
+.finished__list,
+.pending__list {
+  font-size: 30px;
+  padding: 0px 30px;
+}
+
+.finished__list li,
+.pending__list li {
+  font-size: 20px;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: flex-end;
+}
