@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="user">
+      <input
+        type="text"
+        class="user__name"
+        placeholder="이름을 입력해주세요!"
+      />
+    </form>
+
+    <form class="toDo">
+      <input
+        type="text"
+        class="toDo__list"
+        placeholder="ToDoList를 작성해주세요!"
+      />
+    </form>
+    <div class="list">
+      <ul class="pending__list">
+        Pending
+      </ul>
+
+      <ul class="finished__list">
+        Finished
+      </ul>
+    </div>
+    <div class="clock">
+      <div class="clock__title"></div>
+    </div>
+    <span class="js-weather"></span>
+    <script src="index.js"></script>
+    <script src="clock.js" defer></script>
+    <script src="todo.js" defer></script>
+    <script src="bg.js" defer></script>
+    <script src="weather.js" defer></script>
+  </body>
+</html>
