@@ -1,10 +1,8 @@
 const body = document.querySelector("body");
 
-const IMG_NUMBER = 3;
-
-function paintImage(imgNumber) {
+function paintImage() {
   const image = new Image();
-  image.src = `img/${imgNumber + 1}.jpg`;
+  image.src = `img/6.jpg`;
   image.classList.add("bgImage");
   body.appendChild(image);
 }
@@ -15,8 +13,7 @@ function getRandom() {
 }
 
 function init() {
-  const randomNumber = getRandom();
-  paintImage(randomNumber);
+  paintImage();
 }
 
 init();
