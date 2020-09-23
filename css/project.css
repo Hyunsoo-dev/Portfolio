@@ -1,0 +1,23 @@
+.project {
+  box-shadow: 1px 2px 5px #888;
+  width: 20%;
+  height: 160px;
+  margin: 0px 30px;
+  padding: 15px 15px;
+}
+.project_container {
+  display: flex;
+  justify-content: center;
+}
+
+.project_title,
+.project_skillLabel {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 3px 0px;
+}
+.project_period,
+.project_skills {
+  font-size: 13px;
+  margin: 3px 0px;
+}

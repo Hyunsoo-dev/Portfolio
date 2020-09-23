@@ -2,6 +2,9 @@
 @import "user.css";
 @import "toDo.css";
 @import "weather.css";
+@import "project.css";
+@import "overView.css";
+
 body {
   padding: 0px 50px;
 }
