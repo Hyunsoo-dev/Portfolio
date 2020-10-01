@@ -10,18 +10,19 @@
 }
 .overView_descriptionLabel,
 .overView_skillLabel,
-.overView_githubLabel {
+.overView_githubLabel,
+.video_title {
   font-size: 25px;
   font-weight: bold;
 }
 .overView_period,
 .overView_description,
 .overView_skills,
-.overView_github a {
+.overView_github {
   font-size: 18px;
   margin: 10px 0px;
 }
-.video_container {
+video {
   margin: 0 auto;
   text-align: center;
 
