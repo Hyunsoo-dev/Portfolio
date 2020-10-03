@@ -1,0 +1,31 @@
+.overView {
+  text-align: left;
+  margin: 0 auto;
+  width: 80%;
+}
+.overView_title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.overView_descriptionLabel,
+.overView_skillLabel,
+.overView_githubLabel,
+.video_title {
+  font-size: 25px;
+  font-weight: bold;
+}
+.overView_period,
+.overView_description,
+.overView_skills,
+.overView_github {
+  font-size: 18px;
+  margin: 10px 0px;
+}
+video {
+  margin: 0 auto;
+  text-align: center;
+  width: 500;
+  height: 500;
+  margin-top: 30px;
+}

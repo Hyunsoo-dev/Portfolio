@@ -1,0 +1,43 @@
+@import "clock.css";
+@import "user.css";
+@import "toDo.css";
+@import "weather.css";
+@import "project.css";
+@import "overView.css";
+
+body {
+  padding: 0px 50px;
+}
+
+.content {
+  text-align: center;
+  font-size: 50px;
+  padding: 20px 0px;
+}
+.content a {
+  text-decoration: none;
+}
+.intro {
+  padding: 20px 0px;
+}
+.title {
+  margin-bottom: 20px;
+}
+.intro_introduce,
+.expreience_title,
+.title_title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.intro_introduce2,
+.expreience_content,
+.title_content {
+  font-size: 18px;
+  font-weight: 500;
+}
+.clock,
+.js-weather {
+  display: flex;
+  justify-content: center;
+}
